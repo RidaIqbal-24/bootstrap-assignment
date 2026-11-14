@@ -1,0 +1,20 @@
+/* Only the things Bootstrap doesn't provide out of the box */
+
+/* Hero dark-blue background (Bootstrap has no bg-dark-blue) */
+.hero-dark {
+  background: linear-gradient(145deg, #0b2b4f 0%, #1e6f9f 100%);
+}
+
+/* Contact light-purple background (requirement) */
+.contact-lavender {
+  background-color: #ede9fe;
+}
+
+/* Optional polish: soft hover lift on cards */
+.card {
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 .75rem 1.5rem rgba(0, 80, 130, .15) !important;
+}
